@@ -1,5 +1,5 @@
-/// <reference path="../../../vendortypescripts/node/node.d.ts"/>
-/// <reference path="../../../vendortypescripts/express/express.d.ts"/>
+/// <reference path="../typings/node/node.d.ts"/>
+/// <reference path="../typings/express/express.d.ts"/>
 var http = require('http');
 var Fda = (function () {
     function Fda() {
@@ -20,8 +20,6 @@ var Fda = (function () {
         this.Label("purpose:" + purpose, 0, 100, callback, Fda.SummaryProductData);
     };
     Fda.prototype.PurposeWithoutIngredient = function (purpose, ingredient, callback) {
-        // Generic name is a little bit more helpful than active ingredient?
-        //this.Label("purpose:"+ purpose +"+AND+NOT+active_ingredient:" + ingredient + "+AND+NOT+inactive_ingredient:" + ingredient, 0, 100, callback, Fda.SummaryProductData);
         this.Label("purpose:" + purpose + "+AND+NOT+generic_ingredient:" + ingredient + "+AND+NOT+inactive_ingredient:" + ingredient, 0, 100, callback, Fda.SummaryProductData);
     };
     Fda.prototype.Label = function (search, skip, limit, callback, filter) {
@@ -86,3 +84,4 @@ var Fda = (function () {
     return Fda;
 })();
 exports.Fda = Fda;
+//# sourceMappingURL=api.js.map
