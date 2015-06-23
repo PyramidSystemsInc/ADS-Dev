@@ -7,9 +7,6 @@
 ## ADS-Dev
 Pyramid Systems' GSA Agile Delivery Services BPA Development Technical submission
 
-## Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 ## Prototype
 You can view the prototype at http://pyramidopenfda.herokuapp.com
 
