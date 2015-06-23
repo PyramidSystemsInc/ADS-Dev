@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/PyramidSystemsInc/ADS-Dev.svg?branch=dev)](https://travis-ci.org/PyramidSystemsInc/ADS-Dev) 
+[![Build Status](https://travis-ci.org/PyramidSystemsInc/ADS-Dev.svg?branch=main)](https://travis-ci.org/PyramidSystemsInc/ADS-Dev) 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) 
 [![Code Climate](https://codeclimate.com/github/PyramidSystemsInc/ADS-Dev/badges/gpa.svg)](https://codeclimate.com/github/PyramidSystemsInc/ADS-Dev)
 
