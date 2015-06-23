@@ -7,7 +7,7 @@
 Pyramid Systems' GSA Agile Delivery Services BPA Development Technical submission
 
 ## Prototype
-You can view the prototype at http://pyramidopenfdadev.herokuapp.com
+You can view the prototype at http://pyramidopenfda.herokuapp.com
 
 ## License
 ADS-Dev is licensed under the MIT license.
