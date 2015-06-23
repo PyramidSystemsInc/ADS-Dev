@@ -1,9 +1,4 @@
 /* jshint -W117, -W030 */
-/// <reference path="../../../typings/node/node.d.ts"/>
-/// <reference path="../../../typings/express/express.d.ts"/>
-/// <reference path="../../../typings/should/should.d.ts"/>
-/// <reference path="../../../typings/mocha/mocha.d.ts"/>
-
 var should = require('should');
 require('typescript-require');
 var app = require('../app');
