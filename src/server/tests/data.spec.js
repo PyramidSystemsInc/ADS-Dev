@@ -56,7 +56,7 @@ describe.skip('data products', function () {
                 throw err;
             }
 
-            body.results[0]['active_ingredient'].should.match(/Acetaminophen/);
+            body.results[0]['generic_name'].should.match(/ACETAMINOPHEN/);
             done();
         });
     });
