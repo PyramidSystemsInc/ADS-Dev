@@ -38,6 +38,7 @@ switch (environment){
         break;
     default:
         console.log('** DEV **');
+        alert('hi');
         app.use(express.static('./src/client/'));
         app.use(express.static('./'));
         app.use(express.static('./tmp'));
