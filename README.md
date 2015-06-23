@@ -2,10 +2,13 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) 
 [![Dependency Status](https://david-dm.org/PyramidSystemsInc/ADS-Dev.svg)](https://david-dm.org/PyramidSystemsInc/ADS-Dev) 
 [![devDependency Status](https://david-dm.org/PyramidSystemsInc/ADS-Dev/dev-status.svg)](https://david-dm.org/PyramidSystemsInc/ADS-Dev#info=devDependencies)
-[![Code Climate](https://codeclimate.com/github/PyramidSystemsInc/ADS-Dev/badges/gpa.svg)](https://codeclimate.com/github/PyramidSystemsInc/ADS-Dev)
+[![Code Climate](https://codeclimate.com/github/PyramidSystemsInc/ADS-Dev/badges/gpa.svg)](https://codeclimate.com/github/Pyrami
 
 ## ADS-Dev
 Pyramid Systems' GSA Agile Delivery Services BPA Development Technical submission
+
+## Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Prototype
 You can view the prototype at http://pyramidopenfda.herokuapp.com
