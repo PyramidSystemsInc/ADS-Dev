@@ -369,9 +369,12 @@ gulp.task('run-mocha', function () {
     return gulp.src(config.mochaServerTests)
         .pipe(mocha())
         .once('error', function () {
+            console.log('error');
         process.exit(1);
     })
         .once('end', function () {
+            
+            console.log('end');
         process.exit();
     });
 })
