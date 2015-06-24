@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "node ./src/server/bin/www",
-    "test": "mocha ./src/server/tests",
     "integration_firefox": "nightwatch",
     "integration_chrome": "nightwatch --env chrome",
     "postinstall": "gulp postinstall"
