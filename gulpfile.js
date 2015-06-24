@@ -205,7 +205,20 @@ gulp.task('build-specs', ['templatecache'], function (done) {
  * This is separate so we can run tests on
  * optimize before handling image or fonts
  */
-gulp.task('build', ['optimize', 'images', 'fonts'], function () {
+gulp.task('build', ['test' ,'optimize', 'images', 'fonts'], function () {
+    log('Building everything');
+
+    var msg = {
+        title: 'gulp build',
+        subtitle: 'Deployed to the build folder',
+        message: 'Running `gulp serve-build`'
+    };
+    del(config.temp);
+    log(msg);
+    notify(msg);
+});
+
+gulp.task('postinstall', ['optimize', 'images', 'fonts'], function () {
     log('Building everything');
 
     var msg = {
@@ -223,7 +236,7 @@ gulp.task('build', ['optimize', 'images', 'fonts'], function () {
  * and inject them into the new index.html
  * @return {Stream}
  */
-gulp.task('optimize', ['inject', 'test'], function () {
+gulp.task('optimize', ['inject'], function () {
     log('Optimizing the js, css, and html');
 
     var assets = $.useref.assets({ searchPath: './' });

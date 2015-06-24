@@ -8,8 +8,7 @@ before_script:
 - npm install -g karma
 - npm install -g typescript@1.4.1
 - bower install
-- gulp build
-- export NODE_ENV=build
+- gulp b
 deploy:
   provider: heroku
   api_key:
