@@ -23,7 +23,6 @@ describe.skip('Requesting from data.gov', function () {
 
 describe.skip('data products', function () {
     it('unspecified should 404', function (done) {
-        this.timeout(5000);
         hippie(app)
             .get('/data/products/')
             .expectStatus(404)
@@ -31,7 +30,6 @@ describe.skip('data products', function () {
     });
 
     it('Visine should have data', function (done) {
-        this.timeout(5000);
         hippie(app)
             .json()
             .get('/data/products/Visine')
@@ -46,7 +44,6 @@ describe.skip('data products', function () {
     });
 
     it('Excedrin should have acetominaphin', function (done) {
-        this.timeout(5000);
         hippie(app)
             .json()
             .get('/data/products/Tylenol')
@@ -55,14 +52,12 @@ describe.skip('data products', function () {
             if (err) {
                 throw err;
             }
-
             body.results[0]['generic_name'].should.match(/ACETAMINOPHEN/);
             done();
         });
     });
 
     it('Specific product should be tylenol', function (done) {
-        this.timeout(5000);
         hippie(app)
             .json()
             .get('/data/product/07090b21-bc6c-4d16-a49e-02f0622eb0f1')
