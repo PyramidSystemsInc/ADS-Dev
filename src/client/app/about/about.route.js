@@ -14,13 +14,13 @@
     function getStates() {
         return [
             {
-                state: 'search-form.product',
+                state: 'about',
                 config:{
-                    url: 'product',
-                    controller: 'ProductController',
+                    url: '/about',
+                    controller: 'AboutController',
                     controllerAs: 'vm',
-                    templateUrl: 'app/product/product.html',
-                    title: 'Product',
+                    templateUrl: 'app/about/about.html',
+                    title: 'About',
                 }
             }
         ];
